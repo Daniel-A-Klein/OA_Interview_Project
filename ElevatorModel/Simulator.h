@@ -1,5 +1,5 @@
 #pragma once
-#include "Elevator.h"
+#include "ElevatorContext.h"
 #include <vector>
 #include <string>
 
@@ -11,7 +11,7 @@ public:
 	/// </summary>
 	/// <param name="StartingFloor">Elevator Starting Floor</param>
 	/// <param name="floors">Floors to visit</param>
-	Simulator(int StartingFloor, std::vector<int> floors) : _elevator(StartingFloor), _floors(floors) {};
+	Simulator(int StartingFloor, std::vector<int> floors) : _floors(floors) { _iElevatorContext = Elevator::ElevatorContext(StartingFloor); };
 
 	/// <summary>
 	/// Runs the Elevator simulation
@@ -31,7 +31,7 @@ private:
 	/// <summary>
 	/// Class that contains the Simulated Elevator Model
 	/// </summary>
-	Elevator _elevator;
+	Elevator::IElevatorContext _iElevatorContext;
 
 	/// <summary>
 	/// List of floors to travel to during simulation

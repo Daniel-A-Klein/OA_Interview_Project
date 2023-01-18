@@ -20,10 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Elevator.h" />
+    <ClInclude Include="ElevatorContext.h" />
+    <ClInclude Include="ElevatorState.h" />
+    <ClInclude Include="IElevatorContext.h" />
+    <ClInclude Include="NonoperationalState.h" />
+    <ClInclude Include="OperationalState.h" />
     <ClInclude Include="Simulator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Elevator.cpp" />
+    <ClCompile Include="ElevatorContext.cpp" />
+    <ClCompile Include="ElevatorState.cpp" />
+    <ClCompile Include="NonoperationalState.cpp" />
+    <ClCompile Include="OperationalState.cpp" />
     <ClCompile Include="Simulator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
