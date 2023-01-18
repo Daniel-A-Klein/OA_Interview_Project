@@ -53,9 +53,10 @@ bld/
 /ElevatorModel/x64
 /UnitTests/x64
 
-# Visual Studio 2015 cache/options directory
+# Visual Studio folders
 .vs/
 /.vs
+/packages
 
 # Word Document Temp Files
 *.tmp
