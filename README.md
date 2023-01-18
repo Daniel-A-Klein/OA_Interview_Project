@@ -1,7 +1,7 @@
 # OA_Interview_Project
 Author: Daniel Klein
 
-This is an interview coding project for Outside Analytics. This coding project is a simple elevator simulator where the user can input a starting floor and a list of floors to travel to. The output is 
+This is an interview coding project for Outside Analytics. This coding project is a simple elevator simulator where the user can input a starting floor and a list of floors to travel to. The output is will include the total time the elevator to the nearest second has traveled followed by a space then a list of integers of the floors visited each seperated by a comma.
 # Setup
 
 1. Install Visual Stuido 2022
