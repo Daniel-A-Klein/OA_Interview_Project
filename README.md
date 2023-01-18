@@ -18,8 +18,9 @@ This is an interview coding project for Outside Analytics. This coding project i
 3. Verify all unit test succeded
 
 ## Using Executable
-1. Run UnitTests.exe
-2. Verify all unit test succeded
+1. Open Command Prompt or Powershell and navigat to folder with unit test executable
+2. Run UnitTests.exe
+3. Verify all unit test succeded
 
 # Running the User Interface
 1. Run OA_Interview_Project.exe
