@@ -1,0 +1,5 @@
+﻿  Elevator.cpp
+  Simulator.cpp
+C:\Users\Daniel\source\repos\Cpp\OA_Interview_Project\ElevatorModel\Simulator.cpp(5,20): warning C4930: 'std::stringstream ss(void)': prototyped function not called (was a variable definition intended?)
+  Generating Code...
+  ElevatorModel.vcxproj -> C:\Users\Daniel\source\repos\Cpp\OA_Interview_Project\x64\Debug\ElevatorModel.lib
