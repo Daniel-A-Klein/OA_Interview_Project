@@ -30,8 +30,9 @@ int main()
 
     Simulator simulator(startingFloor, floors);
     simulator.RunSimulation();
-    std::cout << "Results:\n" << simulator.GetFormatedResults();
+    std::cout << "Results:\n" << simulator.GetFormatedResults() << "\n";
 
+    system("pause");
     return 1;
 }
 
