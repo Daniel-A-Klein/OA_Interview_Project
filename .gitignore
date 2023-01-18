@@ -32,5 +32,6 @@
 *.app
 
 # Folders
-/x64
-/packages
+*/x64/
+/packages/
+/.vs/
