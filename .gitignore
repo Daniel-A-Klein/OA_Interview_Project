@@ -48,6 +48,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+/x64
+/OA_Interview_Project/x64
+/ElevatorModel/x64
+/UnitTests/x64
 
 # Visual Studio 2015 cache/options directory
 .vs/
